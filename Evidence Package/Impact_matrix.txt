@@ -1,0 +1,14 @@
+EVIDENCE E-10: Observed vs Potential Impact Matrix
+
+Date: 2026-09-04
+
+| Finding | Observed Impact | Potential Impact |
+|---------|-----------------|------------------|
+| SQL Injection (Mutillidae) | Retrieved 41 user records | Full database compromise, data theft, unauthorized access |
+| LFI (DVWA) | Read /etc/passwd | Access to sensitive system files, source code disclosure |
+| Stored XSS (DVWA) | Alert box displayed | Session hijacking, defacement, phishing |
+
+Risk Assessment:
+- SQL Injection: HIGH — Direct data access
+- LFI: HIGH — System file disclosure
+- Stored XSS: MEDIUM — Browser-side impact

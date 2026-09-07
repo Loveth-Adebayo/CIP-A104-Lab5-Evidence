@@ -1,0 +1,45 @@
+ANALYSIS QUESTIONS & ANSWERS
+Lab 5 — OWASP ZAP Integrated Assessment
+CIP-A104 — Offensive Security Operations I
+
+---
+
+Q1: Which validated finding presents the greatest observed risk, and why?
+
+A1: SQL Injection in Mutillidae presents the greatest observed risk because:
+- It allowed extraction of 41 user records including admin credentials
+- Direct database access enables data theft, unauthorized login, and privilege escalation
+- Observed impact: Full user database exposure
+- Potential impact: Complete system compromise
+
+---
+
+Q2: Which ZAP alert required the most manual interpretation?
+
+A2: Cross-Domain Misconfiguration (fonts.googleapis.com) required the most manual interpretation because:
+- ZAP flagged an external resource not part of the target applications
+- Required verification that the alert was out-of-scope and unrelated to DVWA/Mutillidae
+- Classified as False Positive after manual review
+
+---
+
+Q3: What is the difference between automated discovery and a confirmed finding?
+
+A3: 
+- Automated Discovery: ZAP flagged potential vulnerabilities based on patterns (e.g., missing CSRF tokens, CSP headers)
+- Confirmed Finding: Vulnerability manually validated and proven (e.g., SQL injection returned 41 records, LFI displayed /etc/passwd)
+- Key Difference: Automated alerts require human verification to confirm actual exploitability
+
+---
+
+Q4: What did the retest prove, and what residual risk remains?
+
+A4:
+- Retest proved that security controls effectively mitigate vulnerabilities:
+  - Mutillidae Secure Mode (Level 5) blocked SQL injection
+  - DVWA Impossible Mode encoded XSS to prevent execution
+- Residual Risk:
+  - Other vulnerabilities may exist in untested areas
+  - Misconfigurations could reintroduce weaknesses
+  - Applications still vulnerable at lower security levels
+  - Full security requires defense-in-depth

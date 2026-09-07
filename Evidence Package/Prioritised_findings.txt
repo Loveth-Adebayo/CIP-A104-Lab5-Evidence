@@ -1,0 +1,12 @@
+EVIDENCE E-13: Prioritised Finding Table
+
+| Priority | Finding | Target | Risk | Impact |
+|----------|---------|--------|------|--------|
+| 1 | SQL Injection | Mutillidae | High | Database compromise, data theft |
+| 2 | LFI | DVWA | High | System file disclosure |
+| 3 | Stored XSS | DVWA | Medium | Session hijacking, defacement |
+
+Justification:
+- SQL Injection: Direct data access with immediate impact → Highest Priority
+- LFI: System file access → High Priority
+- Stored XSS: Requires user interaction → Medium Priority

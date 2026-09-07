@@ -1,0 +1,15 @@
+CLEANUP AND RESTORATION RECORD
+Lab 5 — File Inclusion and SQL Injection Security Assessment
+Date: 2026-09-06
+
+| Action | Status | Evidence |
+|--------|--------|----------|
+| Reset DVWA Database |  Complete | E-17 |
+| Reset Mutillidae Database |  Complete | E-18 |
+| Stop local marker server |  N/A | N/A |
+| Restore secure target configuration |  Complete | N/A |
+| Delete temporary marker exports |  Complete | N/A |
+| Confirm no database dump produced |  Complete | N/A |
+
+Cleanup Statement:
+I confirm that all databases have been reset and no evidence remains on the target systems.

@@ -1,0 +1,9 @@
+EVIDENCE E-2: LFI Validation - /etc/passwd
+Date: 2026-09-06
+Application: DVWA
+Security Level: Low
+URL: http://192.168.56.107/dvwa/vulnerabilities/fi/?page=/etc/passwd
+Result: /etc/passwd contents displayed
+SHA-256: 73bd353a6acc42dca8a53b15cbf91b9339caa369bf2b2c21c5b1eaa26d63befa
+Status:  LFI Confirmed
+Screenshot: E-2_lfi_etc_passwd.png

@@ -1,0 +1,27 @@
+EVIDENCE REGISTER
+Lab 5 — OWASP ZAP Integrated Assessment
+CIP-A104 — Offensive Security Operations I
+
+Student: Loveth Adebayo
+Date: 2026-09-04 to 2026-09-06
+
+| Evidence | Description | Source | Date/Time | Purpose |
+|----------|-------------|--------|-----------|---------|
+| E-1 | Rules of Engagement | Nano | 2026-09-04 18:45 | Document assessment scope and rules |
+| E-2 | ZAP Protected Mode | ZAP | 2026-09-04 18:50 | Prove ZAP running in Protected Mode |
+| E-3 | Firefox Proxy Settings | Firefox | 2026-09-04 18:52 | Prove traffic routed through ZAP |
+| E-4 | ZAP Site Tree (DVWA & Mutillidae) | ZAP | 2026-09-04 19:10 | Show both targets captured in ZAP |
+| E-5 | ZAP Passive Alerts | ZAP | 2026-09-04 19:15 | Document passive scan results |
+| E-6 | ZAP Active Scan Policy | ZAP | 2026-09-04 19:30 | Document active scan configuration |
+| E-7 | Mutillidae SQL Injection | Firefox | 2026-09-04 21:00 | Prove SQL injection vulnerability |
+| E-8 | DVWA LFI - /etc/passwd | Firefox | 2026-09-04 21:08 | Prove LFI vulnerability |
+| E-9 | DVWA Stored XSS | Firefox | 2026-09-04 21:12 | Prove Stored XSS vulnerability |
+| E-10 | ZAP Out-of-scope Alerts | ZAP | 2026-09-04 19:15 | False positive analysis |
+| E-11 | DVWA Active Scan Completed | ZAP | 2026-09-04 19:30 | Document active scan completion |
+| E-12 | Mutillidae Secure Mode | Mutillidae | 2026-09-06 01:28 | Prove SQLi blocked in Secure Mode |
+| E-13 | DVWA Impossible Mode | DVWA | 2026-09-06 01:38 | Prove XSS encoded in Impossible Mode |
+| E-14 | SQLi Request/Response | Firefox/DevTools | 2026-09-06 13:13 | Manual validation record |
+| E-15 | LFI Request/Response | Firefox/DevTools | 2026-09-06 13:15 | Manual validation record |
+| E-16 | DVWA Reflected XSS Proof | Firefox | 2026-09-04 21:12 | Document Reflected XSS |
+| E-17 | DVWA Database Reset | DVWA | 2026-09-06 23:00 | Cleanup evidence |
+| E-18 | Mutillidae Database Reset | Mutillidae | 2026-09-06 23:05 | Cleanup evidence |

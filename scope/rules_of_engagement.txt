@@ -1,0 +1,38 @@
+RULES OF ENGAGEMENT
+Lab 5 — OWASP ZAP Integrated Assessment
+CIP-A104 — Offensive Security Operations I
+
+Date: 2026-09-04
+Assessor: Loveth Adebayo
+
+SCOPE
+- Target 1: DVWA — http://192.168.56.107/dvwa/
+- Target 2: Mutillidae II — http://192.168.56.107:8081/
+- Network: Isolated Host-Only (192.168.56.0/24)
+- Only the two vulnerable applications are in scope
+
+EXCLUSIONS
+- No attacks against the host machine
+- No attacks against the Kali VM
+- No attacks against any external/public system
+- No internal network discovery beyond the lab subnet
+- No database dumping or credential collection
+
+STOP CONDITIONS
+- Immediately stop if any target becomes unreachable from the internet
+- Stop if any non-target system is accessed
+- Stop if any live reverse shell or outbound connection is established
+
+PROHIBITED
+- No privilege escalation
+- No persistence
+- No lateral movement
+- No external callbacks
+- No destructive actions
+
+AUTHORISED
+- Passive scanning only
+- Limited active scanning against DVWA and Mutillidae only
+- Manual validation of findings
+- Minimal-impact proof (harmless markers only)
+- Remediation testing using built-in security levels

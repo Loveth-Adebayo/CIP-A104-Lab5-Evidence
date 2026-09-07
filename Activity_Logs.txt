@@ -1,0 +1,27 @@
+# ACTIVITY LOG - LAB 5
+# OWASP ZAP Integrated Assessment
+
+| Date/Time | Activity | Tool Used | Outcome | Errors/Corrections |
+|-----------|----------|-----------|---------|-------------------|
+| 2026-09-04 18:30 | Created lab5 folder structure | Terminal | Success | None |
+| 2026-09-04 18:45 | Created Rules of Engagement | Nano | Success | None |
+| 2026-09-04 18:50 | Launched ZAP in Protected Mode | ZAP | Success | None |
+| 2026-09-04 18:52 | Configured Firefox proxy | Firefox | Success | Initial connection refused; corrected proxy settings |
+| 2026-09-04 18:55 | Browsed DVWA through ZAP | Firefox/ZAP | Success | None |
+| 2026-09-04 19:00 | Browsed Mutillidae through ZAP | Firefox/ZAP | Success | None |
+| 2026-09-04 19:10 | Exported ZAP Site Tree | ZAP | Success | None |
+| 2026-09-04 19:15 | Captured passive alerts | ZAP | Success | None |
+| 2026-09-04 19:30 | Ran Active Scan on DVWA | ZAP | Success | Scan completed |
+| 2026-09-04 19:45 | Ran Active Scan on Mutillidae | ZAP | Stalled | Scan stuck at 0%; attempted multiple restarts |
+| 2026-09-04 20:30 | ZAP database space issue | ZAP | Error | Out of database space; cleared session and restarted |
+| 2026-09-04 21:00 | Performed SQL Injection test | Mutillidae | Success | 41 records retrieved |
+| 2026-09-04 21:08 | Performed LFI test | DVWA | Success | /etc/passwd displayed |
+| 2026-09-04 21:12 | Performed Stored XSS test | DVWA | Success | Alert box displayed |
+| 2026-09-06 01:28 | Tested Mutillidae Secure Mode | Mutillidae | Success | SQL injection blocked |
+| 2026-09-06 01:38 | Tested DVWA Impossible Mode | DVWA | Success | XSS encoded |
+| 2026-09-06 13:13 | Saved SQLi request/response | Firefox/DevTools | Success | Saved as E-14 |
+| 2026-09-06 13:15 | Saved LFI request/response | Firefox/DevTools | Success | Saved as E-15 |
+| 2026-09-06 23:00 | Reset DVWA database | DVWA | Success | E-17 |
+| 2026-09-06 23:05 | Reset Mutillidae database | Mutillidae | Success | E-18 |
+| 2026-09-06 23:10 | Created evidence register | Nano | Success | Complete |
+| 2026-09-06 23:15 | Created activity log | Nano | Success | Complete |
